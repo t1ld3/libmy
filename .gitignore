@@ -1,0 +1,16 @@
+# igore binaries
+*
+!/**/
+!*.*
+!Makefile
+# ignore miscs
+*.o
+*.a
+*.log
+*.gcda
+*.gcno
+*.json
+*.pdf
+*.pl
+.cache
+a.out
