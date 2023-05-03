@@ -1,4 +1,5 @@
 # libmy
+[![build](https://github.com/t1ld3/libmy/actions/workflows/norm.yml/badge.svg)](https://github.com/t1ld3/libmy/actions/workflows/norm.yml)
 
 This is a git repository for the "libmy" library that I used during my first year at Epitech. The library provides a range of helpful functions, such as memory allocation, string manipulation, and standard I/O operations. It also includes an implementation of doubly linked lists.
 

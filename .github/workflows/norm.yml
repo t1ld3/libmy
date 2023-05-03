@@ -5,9 +5,10 @@ env:
 
 on:
   push:
-    branches: ['main']
   pull_request:
-    branches: ['main']
+    types: [closed]
+    branches:
+      - main
 
 jobs:
   check_coding_style:
