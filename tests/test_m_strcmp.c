@@ -28,3 +28,10 @@ Test(m_strcmp, diff_string_diff_length) {
     n = m_strcmp("AA", "A");
     cr_assert_eq(n, 'A');
 }
+
+Test(m_strcmp, same_string) {
+    int n = -1;
+
+    n = m_strcmp("AA", "AA");
+    cr_assert_eq(n, 0);
+}
